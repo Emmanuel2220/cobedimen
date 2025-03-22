@@ -268,12 +268,12 @@ section {
 /* RESPONSIVE pour petits écrans (mobile) */
 @media screen and (max-width: 768px) {
     .header-banner {
-        height: 50px; /* Réduit la hauteur du header sur mobile */
+        height: 70px; /* Réduit la hauteur du header sur mobile */
     }
 
     .span1 {
-        font-size: 1.1em; /* Texte plus petit sur mobile */
-        top: 40px; /* Descente encore plus profonde sur mobile */
+        font-size: 1em; /* Texte plus petit sur mobile */
+        top: 60px; /* Descente encore plus profonde sur mobile */
     }
 
     h1 span:nth-child(1),
