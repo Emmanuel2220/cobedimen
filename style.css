@@ -265,15 +265,16 @@ section {
         margin: 10px auto;
     }
 }
+
 /* RESPONSIVE pour petits écrans (mobile) */
 @media screen and (max-width: 768px) {
     .header-banner {
-        height: 70px; /* Réduit la hauteur du header sur mobile */
+        height: 50px; /* Hauteur plus petite pour mobile */
     }
 
     .span1 {
-        font-size: 1em; /* Texte plus petit sur mobile */
-        top: 60px; /* Descente encore plus profonde sur mobile */
+        font-size: 1em; /* Taille du texte pour mobile */
+        top: 40px; /* Positionnement ajusté pour mobile */
     }
 
     h1 span:nth-child(1),
@@ -286,7 +287,7 @@ section {
     h1 span:nth-child(8),
     h1 span:nth-child(9),
     h1 span:nth-child(10) {
-        animation-delay: 0s; /* Retirer le décalage si trop serré sur mobile */
+        animation-delay: 0s; /* Ajuster le décalage pour les petits écrans */
     }
 }
 
@@ -297,19 +298,19 @@ section {
     }
 
     .span1 {
-        font-size: 1.4em; /* Taille des lettres légèrement plus grande */
-        top: 25px; /* Un peu moins bas */
+        font-size: 1.2em; /* Taille légèrement plus grande que sur mobile */
+        top: 35px; /* Positionnement ajusté */
     }
 }
 
 /* RESPONSIVE pour les grands écrans (ordinateurs) */
 @media screen and (min-width: 1025px) {
     .header-banner {
-        height: 100px; /* Augmente la hauteur du header pour les grands écrans */
+        height: 100px; /* Hauteur du header pour grand écran */
     }
 
     .span1 {
-        font-size: 1.8em; /* Retour à la taille d'origine */
+        font-size: 1.8em; /* Taille originale sur grands écrans */
         top: 15px;
     }
 }
