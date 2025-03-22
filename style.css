@@ -274,7 +274,7 @@ section {
 
     .span1 {
         font-size: 1em; /* Taille du texte pour mobile */
-        top: 30px; /* Positionnement ajusté pour mobile */
+        top: 15px; /* Positionnement ajusté pour mobile */
     }
 
     h1 span:nth-child(1),
