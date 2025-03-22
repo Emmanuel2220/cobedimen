@@ -265,16 +265,15 @@ section {
         margin: 10px auto;
     }
 }
-/* RESPONSIVE pour petits écrans */
-/* RESPONSIVE pour petits écrans */
+/* RESPONSIVE pour petits écrans (mobile) */
 @media screen and (max-width: 768px) {
     .header-banner {
         height: 50px; /* Réduit la hauteur du header sur mobile */
     }
 
     .span1 {
-        font-size: 1.4em; /* Texte plus petit sur mobile */
-        top: 10px;
+        font-size: 1.1em; /* Texte plus petit sur mobile */
+        top: 40px; /* Descente encore plus profonde sur mobile */
     }
 
     h1 span:nth-child(1),
@@ -291,15 +290,15 @@ section {
     }
 }
 
-/* RESPONSIVE pour tablettes et écrans plus larges */
+/* RESPONSIVE pour tablettes (769px à 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .header-banner {
-        height: 80px; /* Augmente la hauteur du header pour les tablettes */
+        height: 60px; /* Hauteur ajustée pour tablette */
     }
 
     .span1 {
-        font-size: 1.6em; /* Taille des lettres légèrement plus grande sur tablette */
-        top: 12px;
+        font-size: 1.4em; /* Taille des lettres légèrement plus grande */
+        top: 25px; /* Un peu moins bas */
     }
 }
 
