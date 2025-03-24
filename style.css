@@ -269,17 +269,17 @@ section {
 /* RESPONSIVE pour mobile */
 @media screen and (max-width: 768px) {
     .header-banner {
-        height: 80px; /* On agrandit légèrement pour mobile */
+        height: 80px;
     }
     .span1 {
-        font-size: 1.1em;
+        font-size: 1em;
         top: 50px;
     }
     @keyframes bounce {
         100% {
-            top: -40px; /* Moins de descente sur mobile */
+            top: -30px; /* Descente plus courte */
             text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc,
-                         0 4px 0 #ccc, 0 5px 0 #ccc, 0 40px 20px rgba(0, 0, 0, 0.3);
+                         0 4px 0 #ccc, 0 5px 0 #ccc, 0 30px 15px rgba(0, 0, 0, 0.3);
         }
     }
 }
@@ -290,8 +290,15 @@ section {
         height: 80px;
     }
     .span1 {
-        font-size: 1.3em;
+        font-size: 1.2em;
         top: 45px;
+    }
+    @keyframes bounce {
+        100% {
+            top: -40px; /* Ajustement aussi sur tablette */
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc,
+                         0 4px 0 #ccc, 0 5px 0 #ccc, 0 40px 20px rgba(0, 0, 0, 0.3);
+        }
     }
 }
 
