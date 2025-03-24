@@ -266,40 +266,32 @@ section {
     }
 }
 
-/* RESPONSIVE pour petits écrans (mobile) */
+/* RESPONSIVE pour mobile */
 @media screen and (max-width: 768px) {
     .header-banner {
-        height: 50px; /* Hauteur plus petite pour mobile */
+        height: 80px; /* On agrandit légèrement pour mobile */
     }
-
     .span1 {
-        font-size: 1em; /* Taille du texte pour mobile */
-        top: 14px; /* Positionnement ajusté pour mobile */
+        font-size: 1.1em;
+        top: 50px;
     }
-
-    h1 span:nth-child(1),
-    h1 span:nth-child(2),
-    h1 span:nth-child(3),
-    h1 span:nth-child(4),
-    h1 span:nth-child(5),
-    h1 span:nth-child(6),
-    h1 span:nth-child(7),
-    h1 span:nth-child(8),
-    h1 span:nth-child(9),
-    h1 span:nth-child(10) {
-        animation-delay: 0s; /* Ajuster le décalage pour les petits écrans */
+    @keyframes bounce {
+        100% {
+            top: -40px; /* Moins de descente sur mobile */
+            text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc,
+                         0 4px 0 #ccc, 0 5px 0 #ccc, 0 40px 20px rgba(0, 0, 0, 0.3);
+        }
     }
 }
 
-/* RESPONSIVE pour tablettes (769px à 1024px) */
+/* RESPONSIVE pour tablettes */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .header-banner {
-        height: 60px; /* Hauteur ajustée pour tablette */
+        height: 80px;
     }
-
     .span1 {
-        font-size: 1.2em; /* Taille légèrement plus grande que sur mobile */
-        top: 35px; /* Positionnement ajusté */
+        font-size: 1.3em;
+        top: 45px;
     }
 }
 
